@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-size:1.3rem;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.App{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.card { 
+ padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.474);
+  width: 30rem;
+  height: auto;
+  margin: 1rem;
+  background-color: #0d0f36;
+}
+.card:hover{
+  font-weight: bold;
+  padding: 1.3rem 1.8rem;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+ 
+}
+.card__autor {
+  text-align: right;
+  margin: 1rem 4rem 0 0;
+}
+.btn {
+  margin: 2rem 2rem 0 0;
+  display: flex;
+  justify-content: right;
+}
+.btn:hover{
+  font-weight: bold;
+  color: #e4ebf0;
+}
+
+
+
